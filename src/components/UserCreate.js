@@ -6,7 +6,7 @@ import Button from './Button.js'
 
 const UserCreate = () => {
     return (
-        <div>
+        <div className="ui form">
             <Field />
             <Button />
         </div>
