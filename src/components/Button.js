@@ -12,7 +12,7 @@ class Button extends React.Component {
                    {color => (        
                     <LanguageContext.Consumer>
                         {context => (
-                                <button className={`ui button ${color}`}>{context === 'english' ? 'Submit' : 'Voorleggen'}</button>
+                                <button className={`ui button ${color}`}>{context.language === 'english' ? 'Submit' : 'Voorleggen'}</button>
                             )}
                     </LanguageContext.Consumer>
                    )}
